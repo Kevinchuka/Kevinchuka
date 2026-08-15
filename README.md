@@ -123,29 +123,48 @@
 </tr>
 </table>
 
-<!-- ░░░ BENTO ROW 3: CONTRIBUTIONS (left) + OFF THE CLOCK (right) ░░░ -->
+<!-- ░░░ BENTO ROW 3: MOVIE TIER LIST (full-width) ░░░ -->
 <table width="100%">
 <tr>
-<td width="58%" valign="top" align="center">
+<td valign="top" align="left">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1a1a1d,100:ff6a00&height=42&text=%F0%9F%90%8D%20%20Contributions&fontSize=20&fontColor=ffffff&fontAlignY=54" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1a1a1d,100:ff6a00&height=42&text=%F0%9F%8E%9E%EF%B8%8F%20%20The%20films%20I'd%20make%20you%20watch&fontSize=20&fontColor=ffffff&fontAlignY=54" width="100%" />
 
-<br/><br/>
+<sub><i>My own little bonus — the ones I actually recommend. No arguing with the S-tier.</i></sub>
 
-<img src="https://raw.githubusercontent.com/Kevinchuka/Kevinchuka/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-
-</td>
-<td width="42%" valign="top" align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:ff6a00,100:1a1a1d&height=42&text=%F0%9F%8E%AC%20%20Off%20the%20clock&fontSize=20&fontColor=ffffff&fontAlignY=54" width="100%" />
-
-<br/><br/>
-
-<img src="https://i.giphy.com/3YFcBIhsYnhogzsfAz.webp" width="100%" alt="A little something I like" />
+<table width="100%">
+<tr>
+<td align="center" width="80"><img src="https://img.shields.io/badge/S-ff6a00?style=for-the-badge&labelColor=0d0d0f" /></td>
+<td align="center" width="15%">🎬<br/><b>The Secret in<br/>Their Eyes</b><br/><sub>2009 · 🇦🇷</sub></td>
+<td align="center" width="15%">🎬<br/><b>Nine Queens</b><br/><sub>2000 · 🇦🇷</sub></td>
+<td align="center" width="15%">🎬<br/><b>Oldboy</b><br/><sub>2003 · 🇰🇷</sub></td>
+<td align="center" width="15%">🎬<br/><b>The Pianist</b><br/><sub>2002 · 🇵🇱</sub></td>
+<td align="center" width="15%">🎬<br/><b>The Brutalist</b><br/><sub>2024 · 🇺🇸</sub></td>
+<td align="center" width="15%">🎬<br/><b>Everything Everywhere<br/>All at Once</b><br/><sub>2022 · 🇺🇸</sub></td>
+</tr>
+</table>
 
 </td>
 </tr>
 </table>
+
+<!-- ░░░ BENTO ROW 4: CONTRIBUTIONS (full-width) ░░░ -->
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1a1a1d,100:ff6a00&height=42&text=%F0%9F%90%8D%20%20Contributions&fontSize=20&fontColor=ffffff&fontAlignY=54" width="100%" />
+
+<img src="https://raw.githubusercontent.com/Kevinchuka/Kevinchuka/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake animation" />
+
+</div>
+
+<!-- ░░░ BENTO ROW 5: OFF THE CLOCK (full-width) ░░░ -->
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:ff6a00,100:1a1a1d&height=42&text=%F0%9F%8E%AC%20%20Off%20the%20clock&fontSize=20&fontColor=ffffff&fontAlignY=54" width="100%" />
+
+<img src="https://i.giphy.com/3YFcBIhsYnhogzsfAz.webp" width="100%" alt="A little something I like" />
+
+</div>
 
 <!-- ░░░ FOOTER ░░░ -->
 <table width="100%">
