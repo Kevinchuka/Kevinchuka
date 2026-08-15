@@ -152,18 +152,27 @@
 
 <br/>
 
-<!-- ═══════════════════ STATS ═══════════════════ -->
+<!-- ═══════════════════ SNAPSHOT ═══════════════════ -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1a1a1d,100:ff6a00&height=46&text=%F0%9F%93%8A%20%20GitHub%20Stats&fontSize=22&fontColor=ffffff&fontAlignY=52" width="70%" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1a1a1d,100:ff6a00&height=46&text=%F0%9F%93%8C%20%20Snapshot&fontSize=22&fontColor=ffffff&fontAlignY=52" width="70%" />
 
 <br/><br/>
 
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=Kevinchuka&show_icons=true&hide_title=false&include_all_commits=true&count_private=true&border_color=ff6a00&bg_color=0d0d0f&title_color=ff6a00&icon_color=ffb347&text_color=e8e8e8&ring_color=ff6a00" alt="GitHub Stats" />
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kevinchuka&layout=compact&border_color=ff6a00&bg_color=0d0d0f&title_color=ff6a00&text_color=e8e8e8&langs_count=8" alt="Top Languages" />
+<table>
+<tr>
+<td width="215" align="center" valign="top">⚡<br/><b>Right now</b><br/><sub>Building Avra-IT</sub></td>
+<td width="215" align="center" valign="top">🐳<br/><b>Infra</b><br/><sub>Self-hosted · Ubuntu</sub></td>
+</tr>
+<tr>
+<td width="215" align="center" valign="top">🤖<br/><b>Automating</b><br/><sub>Workflows on n8n</sub></td>
+<td width="215" align="center" valign="top">📫<br/><b>Open to</b><br/><sub>Good conversations</sub></td>
+</tr>
+</table>
 
-<br/><br/>
+<br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kevinchuka&border=ff6a00&background=0d0d0f&stroke=ff6a00&ring=ffb347&fire=ff6a00&currStreakLabel=ff6a00&sideLabels=e8e8e8&dates=888888&sideNums=e8e8e8&currStreakNum=ffb347&dayLabels=ffb347" alt="GitHub Streak" />
+<img src="https://komarev.com/ghpvc/?username=Kevinchuka&label=Profile%20views&color=ff6a00&style=for-the-badge" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/Kevinchuka?label=Followers&style=for-the-badge&color=ff6a00&labelColor=0d0d0f&logo=github" alt="Followers" />
 
 </div>
 
