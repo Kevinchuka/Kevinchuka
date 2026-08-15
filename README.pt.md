@@ -5,17 +5,17 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Kevin%20%7C%20Kevinchuka&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=CEO%20%40%20Avra-IT%20%C2%B7%20Full%20Stack%20Developer%20%C2%B7%20Self-Hosted%20Enthusiast&descSize=18&descAlignY=58" />
 
 <!-- 🌐 LANGUAGE SWITCHER -->
-**🌐 Language:**
-<a href="README.md"><img src="https://img.shields.io/badge/🇬🇧_English-7C3AED?style=for-the-badge" alt="English"/></a>
+**🌐 Idioma:**
+<a href="README.md"><img src="https://img.shields.io/badge/🇬🇧_English-302b63?style=for-the-badge" alt="English"/></a>
 <a href="README.es.md"><img src="https://img.shields.io/badge/🇪🇸_Español-302b63?style=for-the-badge" alt="Español"/></a>
-<a href="README.pt.md"><img src="https://img.shields.io/badge/🇧🇷_Português-302b63?style=for-the-badge" alt="Português"/></a>
+<a href="README.pt.md"><img src="https://img.shields.io/badge/🇧🇷_Português-7C3AED?style=for-the-badge" alt="Português"/></a>
 <a href="README.fr.md"><img src="https://img.shields.io/badge/🇫🇷_Français-302b63?style=for-the-badge" alt="Français"/></a>
 
 <br/>
 
 <!-- Typing animation -->
 <a href="https://github.com/Kevinchuka">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Kevin+%F0%9F%91%8B;I+run+Avra-IT;Full+stack+developer;I+like+self-hosting+my+own+stuff+%F0%9F%90%B3;Still+learning+every+day" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=Ol%C3%A1%2C+eu+sou+o+Kevin+%F0%9F%91%8B;Toco+a+Avra-IT;Desenvolvedor+full+stack;Gosto+de+hospedar+minhas+pr%C3%B3prias+coisas+%F0%9F%90%B3;Ainda+aprendendo+todo+dia" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -39,26 +39,26 @@
 
 </div>
 
-<!-- ══════════════════════════ ABOUT ME ══════════════════════════ -->
+<!-- ══════════════════════════ SOBRE MIM ══════════════════════════ -->
 
-## 🧑‍💻 About me
+## 🧑‍💻 Sobre mim
 
 ```typescript
 const kevin = {
-  role: "Running Avra-IT",
-  work: "Full stack, mostly web",
-  likes: ["self-hosting", "keeping things simple", "learning by breaking stuff"],
-  location: "🌎 LATAM",
-  learning: "a bit more every day",
-  note: "I don't know everything — I just enjoy figuring it out",
+  papel: "Tocando a Avra-IT",
+  trabalho: "Full stack, principalmente web",
+  gosto: ["hospedar o que é meu", "manter as coisas simples", "aprender quebrando coisas"],
+  local: "🌎 LATAM",
+  aprendendo: "um pouco mais todo dia",
+  nota: "Não sei de tudo — só gosto de ir resolvendo",
 };
 ```
 
-- 🚀 I run **[Avra-IT](https://avra-it.com)** and do a good part of the building myself.
-- 💻 **Full stack** — I move between frontend and backend depending on what the project needs.
-- 🐳 I **self-host** most of my things on a small Ubuntu server. I like understanding what's under the hood.
-- 🤖 I automate the boring parts with **n8n**.
-- 📫 Happy to chat → **kevin@avra-it.com**
+- 🚀 Eu toco a **[Avra-IT](https://avra-it.com)** e boa parte do que tem lá eu mesmo construo.
+- 💻 **Full stack** — vou entre front e back conforme o projeto precisa.
+- 🐳 **Hospedo eu mesmo** quase tudo num servidor Ubuntu pequeno. Gosto de entender o que tem por baixo.
+- 🤖 Automatizo as partes chatas com **n8n**.
+- 📫 Se quiser conversar → **kevin@avra-it.com**
 
 <br/>
 
@@ -71,12 +71,12 @@ const kevin = {
   <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind&theme=dark" alt="Frontend stack" />
 </p>
 
-### ⚙️ Backend & Databases
+### ⚙️ Backend & Bancos de Dados
 <p align="left">
   <img src="https://skillicons.dev/icons?i=nodejs,mongodb,mysql,mariadb&theme=dark" alt="Backend stack" />
 </p>
 
-### ☁️ Deploy & Tools
+### ☁️ Deploy & Ferramentas
 <p align="left">
   <img src="https://skillicons.dev/icons?i=vercel,git,github,vscode&theme=dark" alt="Tools" />
 </p>
@@ -87,19 +87,19 @@ const kevin = {
 
 ## 🐳 Self-Hosted Stack
 
-> I'd rather run my own server and actually understand it than rent a box I can't see into.
+> Prefiro levantar meu próprio servidor e entendê-lo de verdade do que alugar uma caixa que não consigo ver por dentro.
 
 <table>
   <tr>
     <td align="center" width="150">
       <img src="https://skillicons.dev/icons?i=docker&theme=dark" width="48" /><br/>
       <sub><b>Docker + Compose</b></sub><br/>
-      <sub>Containers & orchestration</sub>
+      <sub>Contêineres & orquestração</sub>
     </td>
     <td align="center" width="150">
       <img src="https://skillicons.dev/icons?i=ubuntu&theme=dark" width="48" /><br/>
       <sub><b>Ubuntu Server</b></sub><br/>
-      <sub>My own server 🖥️</sub>
+      <sub>Meu próprio servidor 🖥️</sub>
     </td>
     <td align="center" width="150">
       <img src="https://skillicons.dev/icons?i=nginx&theme=dark" width="48" /><br/>
@@ -109,12 +109,12 @@ const kevin = {
     <td align="center" width="150">
       <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" width="48" /><br/>
       <sub><b>n8n</b></sub><br/>
-      <sub>Workflow automation</sub>
+      <sub>Automação de fluxos</sub>
     </td>
     <td align="center" width="150">
       <img src="https://skillicons.dev/icons?i=linux&theme=dark" width="48" /><br/>
       <sub><b>Linux</b></sub><br/>
-      <sub>Administration & CLI</sub>
+      <sub>Administração & CLI</sub>
     </td>
   </tr>
 </table>
@@ -134,7 +134,7 @@ const kevin = {
 
 <!-- ══════════════════════════ STATS ══════════════════════════ -->
 
-## 📊 GitHub Stats
+## 📊 Estatísticas do GitHub
 
 <div align="center">
 
@@ -151,7 +151,7 @@ const kevin = {
 
 <!-- ══════════════════════════ TROPHIES ══════════════════════════ -->
 
-## 🏆 Trophies
+## 🏆 Troféus
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Kevinchuka&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies" />
@@ -161,7 +161,7 @@ const kevin = {
 
 <!-- ══════════════════════════ SNAKE ══════════════════════════ -->
 
-## 🐍 Contributions
+## 🐍 Contribuições
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Kevinchuka/Kevinchuka/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
@@ -169,12 +169,12 @@ const kevin = {
 
 <br/>
 
-<!-- ══════════════════════════ OFF THE CLOCK ══════════════════════════ -->
+<!-- ══════════════════════════ FORA DO CÓDIGO ══════════════════════════ -->
 
-## 🎬 Off the clock
+## 🎬 Fora do código
 
 <div align="center">
-  <img src="https://media.giphy.com/media/3YFcBIhsYnhogzsfAz/giphy.gif" width="240" alt="A little something I like" />
+  <img src="https://media.giphy.com/media/3YFcBIhsYnhogzsfAz/giphy.gif" width="240" alt="Algo que eu curto" />
 </div>
 
 <br/>
@@ -183,10 +183,10 @@ const kevin = {
 
 <div align="center">
 
-### 💬 Got an idea, or just want to talk?
+### 💬 Tem uma ideia, ou só quer conversar?
 
 <a href="mailto:kevin@avra-it.com">
-  <img src="https://img.shields.io/badge/Email_me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Me_escreva-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 <a href="https://avra-it.com">
   <img src="https://img.shields.io/badge/Avra--IT-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" />
@@ -196,6 +196,6 @@ const kevin = {
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%" />
 
-<sub>Thanks for stopping by — <a href="https://github.com/Kevinchuka">Kevinchuka</a> 🐧</sub>
+<sub>Obrigado por passar — <a href="https://github.com/Kevinchuka">Kevinchuka</a> 🐧</sub>
 
 </div>
