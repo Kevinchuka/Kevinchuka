@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Para ti 💛</title>
+<meta name="description" content="Un regalo de flores amarillas virtuales, hecho con mucho cariño." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌼%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="petals" id="petals" aria-hidden="true"></div>
+
+  <!-- Pantalla 1: Sorpresa con botón -->
+  <section class="screen intro" id="intro">
+    <div class="intro-card">
+      <div class="intro-emoji">🌷🌼🌻</div>
+      <h1 class="intro-title">Tengo una sorpresa para ti</h1>
+      <p class="intro-sub">Hecha con todo mi cariño · 21 de septiembre</p>
+      <button class="cta" id="startBtn">
+        <span>Presiona aquí 💛</span>
+      </button>
+      <p class="intro-hint">(Ábrela con una sonrisa)</p>
+    </div>
+  </section>
+
+  <!-- Pantalla 2: El regalo -->
+  <section class="screen gift" id="gift" aria-hidden="true">
+    <div class="capture" id="capture">
+      <div class="garden" id="garden" aria-hidden="true"></div>
+
+      <div class="message">
+        <h2 class="msg-title">Para mi amor 💛</h2>
+        <p class="msg-body">
+          Te quiero mucho, te amo mucho. Y aunque ahora no tenga dinero
+          para flores reales, te regalo con todo mi cariño estas flores
+          virtuales. Más adelante te llenaré de flores de verdad.
+        </p>
+        <p class="msg-sign">Feliz 21 de septiembre 🌷🌻🌼</p>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button class="download" id="downloadBtn">📸 Descargar el recuerdo</button>
+      <button class="replay" id="replayBtn">↺ Ver de nuevo</button>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
