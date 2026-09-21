@@ -1,21 +1,26 @@
-// ---------- Pétalos amarillos cayendo de fondo ----------
-const petalEmojis = ["🌼", "🌻", "🌷", "💛", "🌸"];
+// ---------- Cosas cayendo de fondo ----------
+// Menú principal (oscuro): chanchitos 🐷 · Sorpresa (claro): flores
+const pigEmojis = ["🐷", "🐖", "🐽"];
+const flowerEmojis = ["🌼", "🌻", "🌷", "💛", "🌸"];
 const petalsLayer = document.getElementById("petals");
 
-function spawnPetals(count) {
+function spawnFalling(count, emojis) {
   petalsLayer.innerHTML = "";
   for (let i = 0; i < count; i++) {
     const p = document.createElement("span");
     p.className = "petal";
-    p.textContent = petalEmojis[Math.floor(Math.random() * petalEmojis.length)];
+    p.textContent = emojis[Math.floor(Math.random() * emojis.length)];
     p.style.left = Math.random() * 100 + "vw";
-    p.style.fontSize = 16 + Math.random() * 20 + "px";
+    p.style.fontSize = 18 + Math.random() * 22 + "px";
     p.style.animationDuration = 6 + Math.random() * 8 + "s";
     p.style.animationDelay = Math.random() * 8 + "s";
     petalsLayer.appendChild(p);
   }
 }
-spawnPetals(28);
+
+// Arranca en modo oscuro con chanchitos cayendo
+document.body.classList.add("dark");
+spawnFalling(26, pigEmojis);
 
 // ---------- Jardín de flores (tulipanes, girasoles y flores al azar) ----------
 // Predominan las amarillas; se incluyen tulipanes y flores variadas ("al azar").
@@ -70,10 +75,11 @@ const startBtn = document.getElementById("startBtn");
 const replayBtn = document.getElementById("replayBtn");
 
 function showGift() {
+  document.body.classList.remove("dark");
   intro.classList.add("hide");
   gift.classList.add("show");
   gift.setAttribute("aria-hidden", "false");
-  spawnPetals(40);
+  spawnFalling(40, flowerEmojis);
   growGarden();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -81,10 +87,11 @@ function showGift() {
 startBtn.addEventListener("click", showGift);
 
 replayBtn.addEventListener("click", () => {
+  document.body.classList.add("dark");
   gift.classList.remove("show");
   gift.setAttribute("aria-hidden", "true");
   intro.classList.remove("hide");
-  spawnPetals(28);
+  spawnFalling(26, pigEmojis);
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 

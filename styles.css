@@ -20,7 +20,16 @@ html, body {
   overflow-x: hidden;
 }
 
-body { position: relative; }
+body {
+  position: relative;
+  transition: background 1.2s ease;
+}
+
+/* Modo oscuro total para el menú principal (antes de la sorpresa) */
+body.dark {
+  background: radial-gradient(circle at 50% 30%, #16121f 0%, #0a0a0f 55%, #000 100%);
+  color: #e8e4f0;
+}
 
 /* ---------- Pétalos de fondo ---------- */
 .petals {
@@ -63,45 +72,61 @@ body { position: relative; }
 
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
-/* ---------- Intro ---------- */
+/* ---------- Intro (oscuro total) ---------- */
 .intro-card {
-  background: rgba(255, 255, 255, .55);
-  backdrop-filter: blur(6px);
+  background: rgba(20, 16, 30, .55);
+  border: 1px solid rgba(255, 255, 255, .08);
+  backdrop-filter: blur(8px);
   border-radius: 28px;
-  padding: 40px 28px;
-  box-shadow: 0 18px 50px rgba(246, 184, 0, .25);
-  max-width: 440px;
-  animation: pop .8s cubic-bezier(.2, 1.2, .3, 1) both;
+  padding: 48px 30px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, .6);
+  max-width: 460px;
+  animation: pop .9s cubic-bezier(.2, 1.2, .3, 1) both;
 }
 .intro-emoji {
-  font-size: 52px;
-  animation: sway 3s ease-in-out infinite;
+  font-size: 46px;
+  filter: drop-shadow(0 0 18px rgba(200, 170, 255, .5));
+  animation: glowPulse 2.6s ease-in-out infinite;
 }
 .intro-title {
-  font-family: "Dancing Script", cursive;
-  font-size: clamp(2rem, 7vw, 3rem);
-  color: var(--yellow-deep);
-  margin: 12px 0 6px;
+  font-family: "Playfair Display", "Dancing Script", serif;
+  font-weight: 800;
+  letter-spacing: .5px;
+  font-size: clamp(2.1rem, 8vw, 3.4rem);
+  color: #f3eefc;
+  text-shadow: 0 2px 30px rgba(160, 120, 255, .35);
+  margin: 16px 0 10px;
 }
-.intro-sub { font-size: 1rem; opacity: .85; margin-bottom: 26px; }
-.intro-hint { margin-top: 16px; font-size: .85rem; opacity: .6; }
+.intro-sub {
+  font-size: 1rem;
+  color: #b8b0cc;
+  letter-spacing: .3px;
+  margin-bottom: 30px;
+}
+.intro-hint { margin-top: 18px; font-size: .85rem; color: #7d7592; letter-spacing: 1px; text-transform: uppercase; }
 
 .cta {
-  border: none;
+  border: 1px solid rgba(255, 255, 255, .15);
   cursor: pointer;
   font-family: "Quicksand", sans-serif;
   font-weight: 600;
+  letter-spacing: .5px;
   font-size: 1.15rem;
-  color: #5a3d00;
-  padding: 16px 34px;
+  color: #f3eefc;
+  padding: 16px 38px;
   border-radius: 999px;
-  background: linear-gradient(135deg, var(--yellow), var(--orange));
-  box-shadow: 0 10px 24px rgba(246, 184, 0, .45);
-  transition: transform .18s ease, box-shadow .18s ease;
-  animation: heartbeat 1.8s ease-in-out infinite;
+  background: linear-gradient(135deg, #2a2140, #443066);
+  box-shadow: 0 0 0 rgba(160, 120, 255, .5), 0 12px 30px rgba(0, 0, 0, .5);
+  transition: transform .18s ease, box-shadow .3s ease;
+  animation: glowPulse 2.2s ease-in-out infinite;
 }
-.cta:hover { transform: translateY(-3px) scale(1.04); box-shadow: 0 16px 30px rgba(246, 184, 0, .55); }
+.cta:hover { transform: translateY(-3px) scale(1.05); box-shadow: 0 0 34px rgba(180, 140, 255, .6), 0 16px 34px rgba(0, 0, 0, .55); }
 .cta:active { transform: scale(.96); }
+
+@keyframes glowPulse {
+  0%, 100% { filter: drop-shadow(0 0 10px rgba(180, 140, 255, .3)); transform: scale(1); }
+  50% { filter: drop-shadow(0 0 24px rgba(180, 140, 255, .7)); transform: scale(1.03); }
+}
 
 @keyframes heartbeat {
   0%, 100% { transform: scale(1); }
